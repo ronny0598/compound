@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576775435483",
+    "firebase_url": "https://compound-6ae14.firebaseio.com",
+    "project_id": "compound-6ae14",
+    "storage_bucket": "compound-6ae14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576775435483:android:a5d6cb67ccd66560af48fe",
+        "android_client_info": {
+          "package_name": "com.rohan.compound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576775435483-76j3imiklm8824a9mv9tm8ifd8u3vmnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_DogWl4S5MakLYxMs_4QawX7IFGSW_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576775435483-76j3imiklm8824a9mv9tm8ifd8u3vmnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

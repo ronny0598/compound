@@ -1,0 +1,590 @@
+[debug] [2020-05-01T07:09:17.274Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T07:09:17.275Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rovin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only firestore
+[debug] [2020-05-01T07:09:17.276Z] CLI Version:   8.1.1
+[debug] [2020-05-01T07:09:17.276Z] Platform:      win32
+[debug] [2020-05-01T07:09:17.276Z] Node Version:  v12.16.2
+[debug] [2020-05-01T07:09:17.277Z] Time:          Fri May 01 2020 12:39:17 GMT+0530 (India Standard Time)
+[debug] [2020-05-01T07:09:17.277Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T07:09:17.277Z] 
+[debug] [2020-05-01T07:09:17.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T07:09:17.283Z] > authorizing via signed-in user
+[warn] !  Could not find config (firebase.json) so using defaults.
+[info] i  emulators: Starting emulators: firestore
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file.
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration.
+[debug] [2020-05-01T07:09:19.310Z] Ignoring unsupported arg: projectId
+[debug] [2020-05-01T07:09:19.310Z] Ignoring unsupported arg: auto_download
+[debug] [2020-05-01T07:09:19.310Z] Starting firestore emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\rovin\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.11.3.jar","--host","localhost","--port",8080],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false}
+[info] i  firestore: firestore emulator logging to firestore-debug.log
+[debug] [2020-05-01T07:09:20.842Z] API endpoint: http://localhost:8080
+[debug] [2020-05-01T07:09:20.843Z] 
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+
+[info] +  firestore: firestore emulator started at http://localhost:8080
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:8080
+[info] +  emulators: All emulators started, it is now safe to connect.
+[debug] [2020-05-01T07:09:27.201Z] May 01, 2020 12:39:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:09:28.354Z] May 01, 2020 12:39:28 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L9, false for 'update' @ L20
+
+[debug] [2020-05-01T07:09:28.466Z] May 01, 2020 12:39:28 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L21
+
+[debug] [2020-05-01T07:09:28.626Z] May 01, 2020 12:39:28 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9, false for 'delete' @ L21
+
+[debug] [2020-05-01T07:09:28.731Z] May 01, 2020 12:39:28 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L9, Null value error. for 'create' @ L22
+
+[debug] [2020-05-01T07:09:49.509Z] May 01, 2020 12:39:49 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:09:49.773Z] May 01, 2020 12:39:49 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L9
+
+[debug] [2020-05-01T07:09:50.002Z] May 01, 2020 12:39:50 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9
+
+[debug] [2020-05-01T07:09:50.074Z] May 01, 2020 12:39:50 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9
+
+[debug] [2020-05-01T07:09:50.145Z] May 01, 2020 12:39:50 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9
+
+[debug] [2020-05-01T07:09:50.201Z] May 01, 2020 12:39:50 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L9
+
+[debug] [2020-05-01T07:09:50.250Z] May 01, 2020 12:39:50 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L9
+
+[debug] [2020-05-01T07:21:07.408Z] May 01, 2020 12:51:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:21:07.439Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.540Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.645Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.702Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.767Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.827Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.841Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:07.884Z] May 01, 2020 12:51:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 Unexpected '}'.
+
+[debug] [2020-05-01T07:21:22.517Z] May 01, 2020 12:51:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:21:22.536Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.640Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.740Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.802Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.858Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.914Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.929Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:22.972Z] May 01, 2020 12:51:22 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L21:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:21:42.914Z] May 01, 2020 12:51:42 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:21:43.081Z] May 01, 2020 12:51:43 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L9
+
+[debug] [2020-05-01T07:21:43.159Z] May 01, 2020 12:51:43 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L9, false for 'update' @ L14
+
+[debug] [2020-05-01T07:21:43.226Z] May 01, 2020 12:51:43 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L15
+
+[debug] [2020-05-01T07:21:43.358Z] May 01, 2020 12:51:43 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L9, false for 'delete' @ L15
+
+[debug] [2020-05-01T07:21:43.458Z] May 01, 2020 12:51:43 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L9, Null value error. for 'create' @ L16
+
+[debug] [2020-05-01T07:22:14.451Z] May 01, 2020 12:52:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:22:14.604Z] May 01, 2020 12:52:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: No matching allow statements
+
+[debug] [2020-05-01T07:22:14.676Z] May 01, 2020 12:52:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L10
+
+[debug] [2020-05-01T07:22:14.739Z] May 01, 2020 12:52:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L11
+
+[debug] [2020-05-01T07:22:14.870Z] May 01, 2020 12:52:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L11
+
+[debug] [2020-05-01T07:22:14.971Z] May 01, 2020 12:52:14 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L12
+
+[debug] [2020-05-01T07:22:36.238Z] May 01, 2020 12:52:36 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:22:36.255Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.354Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.451Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.511Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.573Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.628Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.641Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:22:36.676Z] May 01, 2020 12:52:36 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: Error compiling rules:
+L18:5 The 'match' body must contain at least one declaration.
+
+[debug] [2020-05-01T07:23:48.089Z] May 01, 2020 12:53:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:23:48.242Z] May 01, 2020 12:53:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: No matching allow statements
+
+[debug] [2020-05-01T07:23:48.311Z] May 01, 2020 12:53:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L10
+
+[debug] [2020-05-01T07:23:48.370Z] May 01, 2020 12:53:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L11
+
+[debug] [2020-05-01T07:23:48.492Z] May 01, 2020 12:53:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L11
+
+[debug] [2020-05-01T07:23:48.586Z] May 01, 2020 12:53:48 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L12
+
+[debug] [2020-05-01T07:25:16.901Z] May 01, 2020 12:55:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:25:17.061Z] May 01, 2020 12:55:17 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: No matching allow statements
+
+[debug] [2020-05-01T07:25:17.136Z] May 01, 2020 12:55:17 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L10
+
+[debug] [2020-05-01T07:25:17.198Z] May 01, 2020 12:55:17 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L11
+
+[debug] [2020-05-01T07:25:17.333Z] May 01, 2020 12:55:17 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L11
+
+[debug] [2020-05-01T07:25:17.427Z] May 01, 2020 12:55:17 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L12
+
+[debug] [2020-05-01T07:26:25.434Z] May 01, 2020 12:56:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:26:25.674Z] May 01, 2020 12:56:25 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L10
+
+[debug] [2020-05-01T07:26:25.746Z] May 01, 2020 12:56:25 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L11
+
+[debug] [2020-05-01T07:26:25.871Z] May 01, 2020 12:56:25 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L11
+
+[debug] [2020-05-01T07:26:25.974Z] May 01, 2020 12:56:25 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L12
+
+[debug] [2020-05-01T07:27:07.058Z] May 01, 2020 12:57:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:27:07.212Z] May 01, 2020 12:57:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: No matching allow statements
+
+[debug] [2020-05-01T07:27:07.283Z] May 01, 2020 12:57:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L10
+
+[debug] [2020-05-01T07:27:07.351Z] May 01, 2020 12:57:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L11
+
+[debug] [2020-05-01T07:27:07.463Z] May 01, 2020 12:57:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L11
+
+[debug] [2020-05-01T07:27:07.555Z] May 01, 2020 12:57:07 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+Null value error. for 'create' @ L12
+
+[debug] [2020-05-01T07:29:31.653Z] May 01, 2020 12:59:31 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:29:31.805Z] May 01, 2020 12:59:31 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8
+
+[debug] [2020-05-01T07:29:31.875Z] May 01, 2020 12:59:31 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L8, false for 'update' @ L16
+
+[debug] [2020-05-01T07:29:31.936Z] May 01, 2020 12:59:31 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L17
+
+[debug] [2020-05-01T07:29:32.056Z] May 01, 2020 12:59:32 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, false for 'delete' @ L17
+
+[debug] [2020-05-01T07:29:32.159Z] May 01, 2020 12:59:32 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8, Null value error. for 'create' @ L18
+
+[debug] [2020-05-01T07:29:57.960Z] May 01, 2020 12:59:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:29:58.109Z] May 01, 2020 12:59:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8
+
+[debug] [2020-05-01T07:29:58.175Z] May 01, 2020 12:59:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L8, false for 'update' @ L16
+
+[debug] [2020-05-01T07:29:58.234Z] May 01, 2020 12:59:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L17
+
+[debug] [2020-05-01T07:29:58.353Z] May 01, 2020 12:59:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, false for 'delete' @ L17
+
+[debug] [2020-05-01T07:29:58.444Z] May 01, 2020 12:59:58 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8, Null value error. for 'create' @ L18
+
+[debug] [2020-05-01T07:31:27.419Z] May 01, 2020 1:01:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:31:27.592Z] May 01, 2020 1:01:27 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8
+
+[debug] [2020-05-01T07:31:27.701Z] May 01, 2020 1:01:27 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L8, false for 'update' @ L16
+
+[debug] [2020-05-01T07:31:27.761Z] May 01, 2020 1:01:27 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L17
+
+[debug] [2020-05-01T07:31:27.879Z] May 01, 2020 1:01:27 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, false for 'delete' @ L17
+
+[debug] [2020-05-01T07:31:27.973Z] May 01, 2020 1:01:27 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8, Null value error. for 'create' @ L18
+
+[debug] [2020-05-01T07:33:05.942Z] May 01, 2020 1:03:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[debug] [2020-05-01T07:33:06.094Z] May 01, 2020 1:03:06 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8
+
+[debug] [2020-05-01T07:33:06.167Z] May 01, 2020 1:03:06 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'update' @ L8, false for 'update' @ L16
+
+[debug] [2020-05-01T07:33:06.231Z] May 01, 2020 1:03:06 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, Service call error. Function: [get], Argument: [path_value {
+  segments {
+    simple: "databases"
+  }
+  segments {
+    simple: "(default)"
+  }
+  segments {
+    simple: "documents"
+  }
+  segments {
+    simple: "users"
+  }
+  segments {
+    simple: "danefilled"
+  }
+}
+]. for 'delete' @ L17
+
+[debug] [2020-05-01T07:33:06.343Z] May 01, 2020 1:03:06 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'delete' @ L8, false for 'delete' @ L17
+
+[debug] [2020-05-01T07:33:06.437Z] May 01, 2020 1:03:06 PM com.google.cloud.datastore.emulator.impl.util.WrappedStreamObserver onError
+INFO: operation failed: 
+false for 'create' @ L8, Null value error. for 'create' @ L18
+
